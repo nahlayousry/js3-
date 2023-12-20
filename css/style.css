@@ -1,0 +1,29 @@
+body{
+    background-image: url("./imgess/bg-image-29.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+div.container{
+    color: white;
+}
+
+div.container button{
+    margin: auto;
+    display: block;
+    padding: 7px 40px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #BB4120;
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}

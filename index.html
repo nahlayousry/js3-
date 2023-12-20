@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+
+
+    <div class="container w-75 py-4">
+        <h1>Bookmarker</h1>
+
+        <hr>
+
+        <h3>Bookmark your favorite sites</h3>
+      
+
+
+        <label for="nameBook" class="mb-2"> product Name</label>
+        <input oninput="valiName()" type="text" class="form-control mb-3" id="nameBook">
+
+        <label for="urlInput" class="mb-2">Site URL</label>
+        <input oninput="valiUrl()" type="url" class="form-control mb-3" id="urlInput">
+
+        <button onclick="addBook()">Submit</button>
+
+    </div>
+
+    <div class="w-75 mx-auto my-3">
+        <table class="table text-center ">
+            <thead>
+                <th>index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="demo" >
+               
+            </tbody>
+        </table>
+    </div>
+
+<script src="./js/style.js"></script>
+</body>
+</html>
